@@ -52,29 +52,36 @@
 
 
 
-'use strict';
 
-const express = require('express');
-const path = require('path')
-const socketIO = require('socket.io');
 
-const PORT = process.env.PORT || 8000;
-const INDEX = './client/build/index.html';
+// 'use strict';
 
-const server = express()
-    // .use((req, res) => { 
-    //     const filePath = path.join(__dirname, INDEX)
-    //     console.log(filePath);
-    //     res.sendFile(filePath)})
-    .listen(PORT, () => console.log(`Listening on ${PORT}`));
+// const express = require('express');
+// const path = require('path')
+// const socketIO = require('socket.io');
 
-const io = socketIO(server);
+// const PORT = process.env.PORT || 8000;
+// const INDEX = './client/build';
 
-// io.on('connection', (socket) => {
-//     console.log('Client connected');
-//     console.log({socket})
-//     socket.on('disconnect', () => console.log('Client disconnected'));
-// });
+// const server = express()
+//     .use((req, res) => { 
+//         const filePath = path.join(__dirname, INDEX)
+//         console.log(filePath);
+//         res.sendFile(filePath)})
+//     .listen(PORT, () => console.log(`Listening on ${PORT}`));
+
+// const io = socketIO(server);
+
+
+
+
+const express = require('express')
+const app = express()
+const server = require('http').Server(app)
+const io = module.exports.io = require('socket.io')(server)
+const PORT = process.env.PORT || 8000
+
+app.use( express.static(__dirname + '/client/build'))
 
 const users = {};
 
@@ -116,4 +123,6 @@ io.on('connection', socket => {
     });
 });
 
-setInterval(() => io.emit('time', new Date().toTimeString()), 1000);
+server.listen(PORT, () => {
+    console.log('Connected to port: ' + PORT)
+})
