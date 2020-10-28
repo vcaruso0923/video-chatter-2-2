@@ -112,6 +112,8 @@ const Room = (props) => {
 
     return (
         <div className="container-fluid centered">
+        <nav className="navbar navbar-expand navbar-dark bg-dark sticky-top"><a href="https://pure-shelf-42623.herokuapp.com"><span className="navbar-brand">Vroom</span></a><div className="justify-content-end navbar-collapse collapse"><span className="navbar-text"><span><a href="https://pure-shelf-42623.herokuapp.com/dashboard">Leave Room</a></span></span></div></nav>
+
         <Container>
             <StyledVideo muted ref={userVideo} autoPlay playsInline />
             {peers.map((peer, index) => {
