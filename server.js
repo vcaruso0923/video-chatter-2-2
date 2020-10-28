@@ -45,9 +45,6 @@ io.on('connection', socket => {
             users[roomID] = room;
         }
     });
-
 });
 
 server.listen(PORT);
-
-
