@@ -54,34 +54,34 @@
 
 
 
-'use strict';
+// 'use strict';
 
-const express = require('express');
-const path = require('path')
-const socketIO = require('socket.io');
+// const express = require('express');
+// const path = require('path')
+// const socketIO = require('socket.io');
 
-const PORT = process.env.PORT || 8000;
-const INDEX = './client/build';
+// const PORT = process.env.PORT || 8000;
+// const INDEX = './client/build';
 
-const server = express()
-    // .use((req, res) => { 
-    //     const filePath = path.join(__dirname, INDEX)
-    //     console.log(filePath);
-    //     res.sendFile(filePath)})
-    .listen(PORT, () => console.log(`Listening on ${PORT}`));
+// const server = express()
+//     // .use((req, res) => { 
+//     //     const filePath = path.join(__dirname, INDEX)
+//     //     console.log(filePath);
+//     //     res.sendFile(filePath)})
+//     .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
-const io = socketIO(server);
-
-
+// const io = socketIO(server);
 
 
-// const express = require('express')
-// const app = express()
-// const server = require('http').Server(app)
-// const io = module.exports.io = require('socket.io')(server)
-// const PORT = process.env.PORT || 8000
 
-// app.use( express.static(__dirname + '/client/build'))
+
+const express = require('express')
+const app = express()
+const server = require('http').Server(app)
+const io = module.exports.io = require('socket.io')(server)
+const PORT = process.env.PORT || 8000
+
+app.use( express.static(__dirname + '/client/build'))
 
 const users = {};
 
@@ -124,6 +124,6 @@ io.on('connection', socket => {
     });
 });
 
-// server.listen(PORT, () => {
-//     console.log('Connected to port: ' + PORT)
-// })
+server.listen(PORT, () => {
+    console.log('Connected to port: ' + PORT)
+})
