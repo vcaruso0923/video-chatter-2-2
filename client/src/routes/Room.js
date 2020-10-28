@@ -4,17 +4,18 @@ import Peer from "simple-peer";
 import styled from "styled-components";
 
 const Container = styled.div`
-    padding: 20px;
     display: flex;
-    height: 100vh;
-    width: 90%;
-    margin: auto;
+    width: auto;
+    margin: 0 auto;
     flex-wrap: wrap;
+    padding: 0;
 `;
 
 const StyledVideo = styled.video`
-    height: 40%;
-    width: 50%;
+    height: 200px;
+    width: 33%;
+    display: flex;
+    margin-bottom: 15px;
 `;
 
 const Video = (props) => {
@@ -110,14 +111,16 @@ const Room = (props) => {
     }
 
     return (
+        <div className="container-fluid centered">
         <Container>
             <StyledVideo muted ref={userVideo} autoPlay playsInline />
             {peers.map((peer, index) => {
                 return (
-                    <Video key={index} peer={peer} />
+                <Video key={index} peer={peer} />
                 );
             })}
         </Container>
+        </div>
     );
 };
 
