@@ -58,10 +58,13 @@ const path = require('path')
 const socketIO = require('socket.io');
 
 const PORT = process.env.PORT || 8000;
-const INDEX = './client/public/index.html';
+const INDEX = './client/build/index.html';
 
 const server = express()
-    .use((req, res) => res.sendFile(path.join(__dirname, INDEX)))
+    // .use((req, res) => { 
+    //     const filePath = path.join(__dirname, INDEX)
+    //     console.log(filePath);
+    //     res.sendFile(filePath)})
     .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 const io = socketIO(server);
