@@ -83,9 +83,9 @@ const io = module.exports.io = require('socket.io')(server)
 const PORT = process.env.PORT || 8000
 
 app.use( express.static(__dirname + '/client/build'));
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, './client/build/index.html'))
-})
+app.get('/room', (request, response) => {
+	response.sendFile(path.join(__dirname, 'client/build'));
+});
 
 const users = {};
 
