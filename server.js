@@ -75,14 +75,17 @@
 
 
 
-
+const path = require('path')
 const express = require('express')
 const app = express()
 const server = require('http').Server(app)
 const io = module.exports.io = require('socket.io')(server)
 const PORT = process.env.PORT || 8000
 
-app.use( express.static(__dirname + '/client/build'))
+app.use( express.static(__dirname + '/client/build'));
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './client/build/index.html'))
+})
 
 const users = {};
 
