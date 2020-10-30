@@ -29,7 +29,7 @@ We are on a Zero Real Estate mission to ensure everyone can stay connected globa
  To run this application download or clone this repository. From your terminal navigate into the client folder and run *npm start*.
  The server will then lanch **Vroom** Click on the **Create room** button. 
  
- ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-create-room.png)
+ ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-wide-create.png)
  
  To naivgate to the main page click on Vroom or 
  
