@@ -35,7 +35,8 @@ We are on a Zero Real Estate mission to ensure everyone can stay connected globa
  
  ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-wide-vroom.png)
  
- [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/heroku.svg' alt='heroku' height='40'>](https://salty-lowlands-76602.herokuapp.com/) click on the Herkou Icon to be taken to the main page. To end your server connection, in your termional  enter *control + c*.
+ [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/heroku.svg' alt='heroku' height='40'>](https://salty-lowlands-76602.herokuapp.com/) 
+ click on the Herkou Icon to be taken to the main page. To end your server connection, in your terminal press **control + c**.
 
 
 ---
