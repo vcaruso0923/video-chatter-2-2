@@ -8,7 +8,7 @@
 | [About](#about) |
 | [Installation](#installation) |
 | [Technologies Used](#technologies-used) |
-| [Collaborators](#collaborators) |
+| [Collaborators](#collaborators-github-links) |
 | [Author Info](#author-info) |
 
 ---
