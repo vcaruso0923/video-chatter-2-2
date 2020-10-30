@@ -2,13 +2,6 @@
 ![The Social Distancing Solution!](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-main-photo.png)
 
 --- 
- 
-## About
-
-We are on a Zero Real Estate mission to ensure everyone can stay connected globally regardless of the location.
-The founders of this company are passionate about having folks stay connected amidst this crisis and for our world’s future. A platform that allows you to connect with anyone and everyone. They plan on challenging the status quo by introducing a virtual platform that provides immediate communication.
-AS a social distancing platform, I WANT to help folks stay connected  SO THAT everyone and anyone can connect with each other in a matter of seconds. 
----
 
 ## Table of Contents 
 
@@ -17,6 +10,12 @@ AS a social distancing platform, I WANT to help folks stay connected  SO THAT ev
 | [Technologies Used](#technologies-used) |
 | [Collaborators Used](#collaborators) |
 | [Author Info](#author-info) |
+
+---
+
+#### About
+
+We are on a Zero Real Estate mission to ensure everyone can stay connected globally regardless of the location. The founders of this company are passionate about having folks stay connected amidst this crisis and for our world’s future. A platform that allows you to connect with anyone and everyone. They plan on challenging the status quo by introducing a virtual platform that provides immediate communication.
 
 ---
 
