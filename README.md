@@ -28,6 +28,7 @@ We are on a Zero Real Estate mission to ensure everyone can stay connected globa
 
  
  or 
+ 
  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/heroku.svg' alt='heroku' height='40'>](https://salty-lowlands-76602.herokuapp.com/) click on the Herkou Icon to be taken to the main page
   
 
@@ -46,14 +47,19 @@ React / GraphQL / Node.js / Express.js Server / Queries / Mutations / MongoDB / 
 
 ---
 
-# Collaborators Github Links
+## Collaborators Github Links
 
-Afzal Akhtar
+
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/vcaruso0923)
-Ted Pedersen
+Afzal Akhtar
+
+
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/tedpedersen)
-Osborn Roxas
+Ted Pedersen
+
+
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/osbornroxas02)
+Osborn Roxas
 
 ---
 
