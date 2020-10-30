@@ -8,7 +8,7 @@
 | [About](#about) |
 | [Installation](#installation) |
 | [Technologies Used](#technologies-used) |
-| [Collaborators](#collaborators-github-links) |
+| [Collaborators](#collaborator-github-links) |
 | [Author Info](#author-info) |
 
 ---
@@ -48,7 +48,10 @@ React / GraphQL / Node.js / Express.js Server / Queries / Mutations / MongoDB / 
 
 ---
 
-### Collaborators Github Links
+### Collaborator Github Links
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/vcaruso0923)
+Vincent Caruso - Backend
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Zal-7)
