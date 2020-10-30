@@ -23,7 +23,7 @@ We are on a Zero Real Estate mission to ensure everyone can stay connected globa
  ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-rooms.png)
  
  
-#### Installation
+### Installation
 
  
  To run this application download or clone this repository. From your terminal navigate into the client folder and run *npm start*.
