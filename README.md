@@ -15,6 +15,8 @@
 
 ### About
 
+![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-rooms.png)
+![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-myfriend.png)
 We are on a Zero Real Estate mission to ensure everyone can stay connected globally regardless of the location. The founders of this company are passionate about having folks stay connected amidst this crisis and for our world’s future. A platform that allows you to connect with anyone and everyone. They plan on challenging the status quo by introducing a virtual platform that provides immediate communication.
 
 ---
@@ -25,7 +27,10 @@ We are on a Zero Real Estate mission to ensure everyone can stay connected globa
  ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-create-room.png)
  
  To run this application download or clone this repository. From your terminal navigate into the client folder and run *npm start*.
- The server will then lanch *Vroom* Click on the *Create room* button. To naivgate to the main page click on Vroom  
+ The server will then lanch **Vroom** Click on the **Create room** button. 
+ 
+ ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/Screen%20Shot%202020-10-29%20at%205.34.10%20PM.png)
+ To naivgate to the main page click on Vroom  
 
  
  or 
