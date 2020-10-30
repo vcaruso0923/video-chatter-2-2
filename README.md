@@ -50,16 +50,16 @@ React / GraphQL / Node.js / Express.js Server / Queries / Mutations / MongoDB / 
 ### Collaborators Github Links
 
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/vcaruso0923)
-Afzal Akhtar
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Zal-7)
+Afzal Akhtar - Backend
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/tedpedersen)
-Ted Pedersen
+Ted Pedersen - Frontend
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/osbornroxas02)
-Osborn Roxas
+Osborn Roxas - Frontend
 
  
 ---
