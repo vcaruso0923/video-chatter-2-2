@@ -32,14 +32,6 @@ We are on a Zero Real Estate mission to ensure everyone can stay connected globa
  The server will then lanch Vroom. Click on the **Create room** button. 
  
  ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-wide-create.png)
- 
- To naivgate to the main page click on **Vroom** or
- 
- ![ReadMe Image](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-wide-vroom.png)
- 
- [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/heroku.svg' alt='heroku' height='40'>](https://salty-lowlands-76602.herokuapp.com/) 
- click on the Herkou Icon to be taken to the main page. To end your server connection, in your terminal press **control + c**.
-
 
 ---
 
