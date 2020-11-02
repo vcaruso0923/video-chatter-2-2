@@ -13,8 +13,7 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"node server.js\" \"cd client && npm start\"",
-    "postinstall": "cd ./client && yarn",
-    "heroku-postbuild": "cd client && npm run build"
+    "postinstall": "cd ./client && yarn"
   },
   "devDependencies": {
     "concurrently": "^5.3.0"
