@@ -1,3 +1,5 @@
+**Please note: this is not a stand-alone application. Navigate to https://github.com/vcaruso0923/video-chatter which is the parent application. Refer to the README.**
+
 # VROOM: The Social Distancing Solution!
 ![The Social Distancing Solution!](https://github.com/vcaruso0923/video-chatter-2-2/blob/master/vroom-main-photo.png)
 
