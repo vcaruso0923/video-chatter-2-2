@@ -1,5 +1,11 @@
 import React from "react";
 import { v1 as uuid } from "uuid";
+import styled from 'styled-components'
+
+const StyledButton = styled.button`
+    background-color: #343a40;
+    color: white !important
+`
 
 const CreateRoom = (props) => {
     function create() {
@@ -8,7 +14,7 @@ const CreateRoom = (props) => {
     }
 
     return (
-        <button onClick={create}>Create room</button>
+        <StyledButton onClick={create}>Create room</StyledButton>
     );
 };
 
