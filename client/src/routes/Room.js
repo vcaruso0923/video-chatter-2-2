@@ -125,14 +125,14 @@ const Room = props => {
     return (
         <div className='container-fluid centered'>
             <nav className='navbar navbar-expand navbar-dark bg-dark sticky-top'>
-                <a href='https://video-chatter-36bb730f7df7.herokuapp.com/dashboard'>
+                <a href={window.location.origin}>
                     <span className='navbar-brand'>Vroom</span>
                 </a>
                 <StyledButton onClick={copyToClipboard} className='navbar-text room-id-button'>Room ID: {window.location.href.split('/').pop()}</StyledButton>
                 <div className='justify-content-end navbar-collapse collapse'>
                     <span className='navbar-text'>
                         <span>
-                            <a href='https://video-chatter-36bb730f7df7.herokuapp.com/dashboard'>Leave Room</a>
+                            <a href={window.location.origin}>Leave Room</a>
                         </span>
                     </span>
                 </div>
